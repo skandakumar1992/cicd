@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  app:
+    image: your-dockerhub-username/cicd-docker-app:latest
+    ports:
+      - "3000:3000"
